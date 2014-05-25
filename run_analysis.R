@@ -30,10 +30,6 @@ rm(list=ls())
 ## Load function definitions by sourcing `functionDefinitions.R`
 source("functionDefinitions.R")
 
-## Load project constant values by sourcing `projectConstants.R`
-source("projectConstants.R")
-
-
 ## Solves all the five tasks:
 
 ## 1. Merges the training and the test sets to create one data set.
