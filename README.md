@@ -1,4 +1,4 @@
-# Gettting anc Cleaning Data - JHU, via coursera (May 2014)  
+# Gettting and Cleaning Data - JHU, via coursera (May 2014)  
 # Course Project
 ## URL for this file
 This file has been published here **only**: https://github.com/dpoet/GettingCleaningDataCP/blob/master/README.md
@@ -28,9 +28,9 @@ This file explains how all of the scripts work and how they are connected.
 # Solution Structure  
 ## Files
 The final solution has been organized in three scripts (details below).  
-All scripts and the directory containing the input data set must be located in the user's working directory.  
-The original data set *was downloaded* **and** *unzipped* previously and is already in the user's working directory (the scripts will **not** try to download it).  
-The tidy data set, file `tidy_data_set.txt`, will also be created in the user's working directory.
++ All scripts and the directory containing the input data set must be located in the user's working directory.  
++ I assume the input data set *was downloaded* **and** *unzipped* previously and is already in the user's working directory (the scripts will **not** try to download it).  
++ The tidy data set, file `tidy_data_set.txt`, will also be created in the user's working directory.
 
 ### Scripts 
 The final solution has been organized in three scripts:  
@@ -51,6 +51,6 @@ Note: some other helper functions have been defined in this script as well.
 
 ### Constants  
 + `projectConstants.R`:  this script contains all the constants used by the scripts in this Course Project.  For example, that's were we configure the directory where the input data is stored and the names of the test and training sets.  
-If any of these needs to be changed, we can do it without modifying the functions that solve the problem.
+If any of these needs to be changed (for any reason), we can do it without modifying the functions that solve the problem.
 
 ***
