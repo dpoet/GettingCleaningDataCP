@@ -6,7 +6,7 @@ This file has been published here **only**: https://github.com/dpoet/GettingClea
 
 ## Code book
 This page is the code book for the tidy data set created in this Course Project.  
-File name: **`tidy_data_set.txt`**.  
+File name: **`tidy_data_set.txt`** (*uploaded to Coursera via the submission page*). 
 
 ### Original data set  
 The original data set: "*Human Activity Recognition Using Smartphones Data Set*".  
@@ -37,7 +37,7 @@ The following guidelines were taken into account while naming variables:
 + The resulting data set has been subsetted in order to keep only the target variables (as explained in the *Variable Selection*, above).
 
 ### Cleaning Data: Tidying My Data Set Up
-+ The original activity labels have been *replaced* by the respective textual activity descriptions.  
++ The original activity labels have been *replaced* by their respective textual activity descriptions.  
 + The variables have been renamed in order to:  
     1. Make their names easier to read  
     2. Respect the variable naming guidelines described above (section *Variable Naming*).  
