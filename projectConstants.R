@@ -3,7 +3,7 @@
 ## Course Project
 #
 ## URL for this file (2014-MAY-25) : 
-#update ## [https://github.com/dpoet/GettingCleaningDataCP/     ]                 
+## [https://github.com/dpoet/GettingCleaningDataCP/blob/master/projectConstants.R]                 
 #
 ## All constant values (starting with a 'k') are stored in this project 
 ## constants file. 
@@ -29,7 +29,7 @@ kDATASET_TRAIN_NAME <- "X_train.txt"
 kID_SUBJECT_TRAIN <- "subject_train.txt"
 kLABELS_TRAIN <- "y_train.txt"
 
-kDATASET_TIDY_NAME <- "tidy_data_set.txt" ## tab-separated file
+kDATASET_TIDY_NAME <- "tidy_data_set.txt" 
 kDATASET_TIDY_SEP <- "\t" ## tabulation
 kDATASET_TIDY_ENCODING <- "UTF-8"
 

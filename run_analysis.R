@@ -3,7 +3,7 @@
 ## Course Project
 #
 ## URL for this file (2014-MAY-25) : 
-#update ## [https://github.com/dpoet/GettingCleaningDataCP/     ]                 
+## [https://github.com/dpoet/GettingCleaningDataCP/blob/master/run_analysis.R]                 
 #
 ## Use of the functions in `functionDefinitions.R`:
 ## All tasks have been broken down in different functions.

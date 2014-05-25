@@ -3,7 +3,7 @@
 ## Course Project
 #
 ## URL for this file (2014-MAY-25) : 
-        #update ## [https://github.com/dpoet/GettingCleaningDataCP/     ]                 ]
+## [https://github.com/dpoet/GettingCleaningDataCP/blob/master/functionDefinitions.R]
 #
 ## All constant values (starting with a 'k') are stored in the project 
 ## constants file. By doing so, functions don't need to be rewritten if, for 
@@ -11,6 +11,8 @@
 #
 ################################################################################
 
+## Load project constant values by sourcing `projectConstants.R`
+source("projectConstants.R")
 
 GetVarNames <- function(){
     ## This function reads all variable names from a separate file and 

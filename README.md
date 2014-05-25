@@ -1,7 +1,8 @@
 ## Gettting anc Cleaning Data - JHU, via coursera (May 2014)  
+## Course Project
+### URL for this file
+This file has been published here **only**: https://github.com/dpoet/GettingCleaningDataCP/blob/master/README.md
 ***
-
-## Course Project  
 
 **Welcome!**  
 In this page I present my final solution to this **Course Project**.  
