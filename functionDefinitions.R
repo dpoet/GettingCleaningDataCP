@@ -59,7 +59,7 @@ GetFullDataSet <- function(){
     ## This function performs task #1, i.e.:
     ## 1. Merges the training and the test sets to create one data set.
     
-    ## Loads both datasets and appends the the Train data set at the bottom of
+    ## Loads both datasets and appends the Train data set at the bottom of
     ## the Test data set (via the `rbind()` function)
     testDS  <- GetTestDataSet()
     trainDS <- GetTrainDataSet()    
@@ -79,7 +79,7 @@ ExtractMeanStdVars <- function(dataFrame){
     ## This function performs task #2, i.e.:
     ## 2. Extracts only the measurements on the mean and standard deviation 
     ##    for each measurement.  
-    ## Note: we keep also Subject ID and Label, which are used in further tasks.
+    ## Note: I keep also Subject ID and Label, which are used in further tasks.
     #
     ## Argument `dataFrame` : expected to be the data frame resulting from task #1. 
     
@@ -87,7 +87,7 @@ ExtractMeanStdVars <- function(dataFrame){
     result <- NULL
     
     if(! is.null(dataFrame) ){
-        ## Indexes for the first and last columns (Subject ID and Label)
+        ## Indexes for the first and last columns (SubjectID and Label)
         idxIdSubjectLabel <- c(1, ncol(dataFrame))
         
         ## Prepares the names of the target variables (i.e. variables we want 
@@ -209,12 +209,13 @@ AddDescriptiveVarNames <- function(dataFrame){
 }
 
 
-GetTidyDataSet <- function(dataFrame, writeFile=FALSE){
+GetTidyDataSet <- function(dataFrame, writeFile = FALSE){
     ## This function performs task #5, i.e.:
     ## 5. Creates a second, independent tidy data set with the average of 
     ##    each variable for each activity and each subject. 
     #
     ## Argument `dataFrame` : expected to be the data frame resulting from task #4. 
+    ## Argument `writeFile` : if the resulting data frame must be written to the text file.
     
     ## Requires the `reshape2` library.
     library(reshape2)
@@ -233,7 +234,8 @@ GetTidyDataSet <- function(dataFrame, writeFile=FALSE){
     
     if(writeFile){
         write.table(  result, file = kDATASET_TIDY_NAME
-                    , sep = kDATASET_TIDY_SEP, row.names = FALSE)
+                    , sep = kDATASET_TIDY_SEP
+                    , row.names = FALSE)
     }
         
     result
